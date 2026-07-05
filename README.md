@@ -8,6 +8,14 @@ Dashboard interactivo de análisis de estadísticas de novatos de la MLB (2020-2
 
 ## 📊 ¿Qué hace este proyecto?
 
+**Nota Adicional**
+
+Estos datos son recolectados de los jugadores colocados como novatos en sus respectivos años mediante la regla de eligibilidad de MLB(no por su año de Debut) la cual estipula lo siguiente:
+1- Un pelotero pierde su estatus de novato si acumula 130 turnos al bate o 50 entradas lanzadas en las mayores
+2- Si pasa más de 45 días en el roster activo durante temporadas anteriores.
+
+Por ejemplo Josh Sborz debuto en MLB en 2019, sin embargo su año de novato fue designado por MLB en 2021.
+
 - Calcula el **WAR (Wins Above Replacement) acumulado por equipo**, en tres vistas: bateadores, pitchers y combinado
 - Muestra los **Top 10 novatos** en distintas categorías:
   - Bateadores: WAR, Home Runs, AVG, RBI, Hits, OPS
@@ -48,7 +56,9 @@ mlb-rookies-analysis/
 Este proyecto usa datos descargados directamente de Baseball-Reference, que tienen algunas limitaciones importantes a tener en cuenta al interpretar los resultados:
 
 - **Jugadores que jugaron para más de un equipo en una misma temporada:** Baseball-Reference no siempre desglosa las estadísticas por equipo individual en el formato de descarga usado para este proyecto. En estos casos, el jugador aparece asociado a un solo equipo (generalmente el último o el de mayor participación), aunque parte de su producción (incluyendo WAR) haya ocurrido con otro equipo durante la misma temporada. Esto puede generar pequeñas distorsiones en el cálculo de **WAR acumulado por equipo**, favoreciendo ligeramente al equipo donde quedó registrado el jugador.
+
 - **Filtros de calificación (qualifiers):** para evitar que estadísticas de promedio (AVG, OPS, ERA, WHIP) se vean infladas por muestras muy pequeñas, se aplicaron mínimos de turnos al bate (AB ≥ 100) e innings lanzados (IP ≥ 100) antes de calcular los tops. Esto significa que jugadores con pocas apariciones, aunque tengan números llamativos, no aparecen en esos rankings específicos.
+
 
 Estas limitaciones no afectan las categorías de totales acumulados (Home Runs, Hits, RBI, Strikeouts, Saves, Innings Pitched), que se calculan sobre el 100% de los datos disponibles.
 
