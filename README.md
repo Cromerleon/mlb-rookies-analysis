@@ -1,6 +1,6 @@
 # ⚾ MLB Rookies Stats 2020-2025
 
-Interactive dashboard for analyzing MLB rookie statistics (2020-2025), built with Python, pandas, and Streamlit. Data sourced from [Baseball-Reference](https://www.baseball-reference.com/).
+Interactive dashboard for analyzing MLB rookie statistics (2020-2025), built with Python, pandas, and Streamlit. Data sourced from [Baseball-Reference](https://www.baseball-reference.com/). (Until July 2 2026)
 
 🔗 **[View Live Dashboard](https://mlb-rookies-analysis-jjkgcvcfxgqta6m94pfrj6.streamlit.app/)**
 
