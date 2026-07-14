@@ -6,9 +6,15 @@ Interactive dashboard for analyzing MLB rookie statistics (2020-2025), built wit
 
 **[📖 Leer en Español](README_ES.md)**
 
+
+
+https://github.com/user-attachments/assets/73708f46-da15-466e-adb5-c15371881ee2
+
+
+
 ---
 
-## 📊 What does this project do?
+## What does this project do?
 
 - Calculates **accumulated WAR (Wins Above Replacement) by team** in three views: batters, pitchers, and combined
 - Displays **Top 10 rookies** in different categories:
@@ -19,7 +25,7 @@ Interactive dashboard for analyzing MLB rookie statistics (2020-2025), built wit
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python** — pandas for data cleaning and analysis
 - **Streamlit** — interactive dashboard framework
@@ -29,7 +35,7 @@ Interactive dashboard for analyzing MLB rookie statistics (2020-2025), built wit
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 mlb-rookies-analysis/
@@ -46,7 +52,7 @@ mlb-rookies-analysis/
 
 ---
 
-## ⚠️ Known Data Limitations
+## Known Data Limitations
 
 This project uses data downloaded directly from Baseball-Reference, which has some important limitations to consider when interpreting results:
 
@@ -66,7 +72,7 @@ For example, Josh Sborz debuted in MLB in 2019, but his rookie year was designat
 
 ---
 
-## 🚀 How to Run Locally
+##  How to Run Locally
 
 ```bash
 # Clone the repository
