@@ -4,9 +4,15 @@ Dashboard interactivo de análisis de estadísticas de novatos de la MLB (2020-2
 
 🔗 **[Ver Dashboard en vivo](https://mlb-rookies-analysis-jjkgcvcfxgqta6m94pfrj6.streamlit.app/)**
 
+
+
+https://github.com/user-attachments/assets/2d9c3703-7a4c-45f6-8393-bb343ce6e18e
+
+
+
 ---
 
-## 📊 ¿Qué hace este proyecto?
+## ¿Qué hace este proyecto?
 
 - Calcula el **WAR (Wins Above Replacement) acumulado por equipo**, en tres vistas: bateadores, pitchers y combinado
 - Muestra los **Top 10 novatos** en distintas categorías:
@@ -17,7 +23,7 @@ Dashboard interactivo de análisis de estadísticas de novatos de la MLB (2020-2
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - **Python** — pandas para limpieza y análisis de datos
 - **Streamlit** — construcción del dashboard interactivo
@@ -27,7 +33,7 @@ Dashboard interactivo de análisis de estadísticas de novatos de la MLB (2020-2
 
 ---
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 mlb-rookies-analysis/
@@ -43,7 +49,7 @@ mlb-rookies-analysis/
 
 ---
 
-## ⚠️ Limitaciones conocidas de los datos
+## Limitaciones conocidas de los datos
 
 Este proyecto usa datos descargados directamente de Baseball-Reference, que tienen algunas limitaciones importantes a tener en cuenta al interpretar los resultados:
 
@@ -63,7 +69,7 @@ Por ejemplo, Josh Sborz debutó en MLB en 2019, sin embargo su año de novato fu
 
 ---
 
-## 🚀 Cómo correrlo localmente
+## Cómo correrlo localmente
 
 ```bash
 # Clonar el repositorio
